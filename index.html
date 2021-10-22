@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="p5.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBcaYw0Pq9-MIjrHzFn850CYhVwUTlyHE8",
+        authDomain: "jogomultijogador.firebaseapp.com",
+        databaseURL: "https://jogomultijogador-default-rtdb.firebaseio.com",
+        projectId: "jogomultijogador",
+        storageBucket: "jogomultijogador.appspot.com",
+        messagingSenderId: "662212326682",
+        appId: "1:662212326682:web:383f870e81cc9bbe3ee8a3"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+  <script src="sketch.js"></script>
+</body>
+</html>
